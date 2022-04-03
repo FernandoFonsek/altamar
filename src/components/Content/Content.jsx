@@ -98,7 +98,7 @@ const Content = () => {
                     <div className="mx-auto mb-3 h-20 w-20 " >
                         <img src={chiringuito} alt="Logo Altamar"></img>
                     </div>
-                    <h2 className="text-4xl hola">¡ Bienvenido!</h2>
+                    <h2 className="text-4xl hola">¡Bienvenido!</h2>
                     <h3 className="hola">¿Qué te apetece hoy?</h3>
                 </div>
             </div>
