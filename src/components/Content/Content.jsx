@@ -9,49 +9,30 @@ import palmera from "../../assets/palmera.png"
 
 const Content = () => {
 
-    const {state, dispatch, comidas, bebidas, postres, niños  } = useContext(SelectorContext)
-    console.log(comidas)
+    const {state, dispatch, comida, bebida, postre, bocadillo, desayuno } = useContext(SelectorContext)
+    console.log(comida)
     return (
-        <>
-        {/* <div className=" m-6 " >
-            <div className="mb-3 rounded-full bg-slate-50 px-4 leading-4 shadow-md shadow-white opacity-90 py-1 ">
-                <div className="font-medium">
-                   <h3 className="font-bold mt-1"> DESAYUNOS </h3>
+        <div className="m-0"> 
+        <div className="flex-col items-center mx-2 pt-40" >
+            {desayuno ? state?.desayuno.map( item =>
+                <div key={item.id} className="border-b-2 border-gray-300 mb-3 rounded-2xl bg-slate-50 px-4 shadow-md shadow-white opacity-90 py-1  ">
+                    <div className="font-medium">
+                        <h3 className="font-bold mt-1"><spam className="bg-Celeste rounded-md text-center px-1 ">{item.codigo}</spam> {item.name}</h3>
+                    </div>
+                    <div className="text-gray-500">
+                        <p>{item.description}</p>
+                    </div>
+                    <div className="text-gray-500">
+                        <p>{item.adddescription}</p>
+                    </div>
+                    { item.price ? <div className="flex justify-end  text-right pr-2 inline-block">
+                        <h3 className="font-bold bg-Celeste rounded-full px-2 py-1">{item.price}{item.symbol}</h3>
+                    </div>: null }
                 </div>
-                <div className="text-gray-500">
-                    <p>Tostadas ricas y nutritivas  </p>
-                </div>
-                <div className="flex justify-end  text-right pr-2 inline-block">
-                    <h3 className="font-bold bg-Celeste rounded-full px-2 py-1">5,00€</h3>
-                </div>
-            </div>
-            <div className=" mb-3 rounded-full bg-slate-50 px-4 leading-4 shadow-md shadow-white opacity-90 py-1 ">
-                <div className="font-medium">
-                   <h3 className="font-bold mt-1"> DESAYUNOS </h3>
-                </div>
-                <div className="text-gray-500">
-                    <p>Tostadas ricas y nutritivas  </p>
-                </div>
-                <div className="flex justify-end  text-right pr-2 inline-block">
-                    <h3 className="font-bold bg-Celeste rounded-full px-2 py-1">5,00€</h3>
-                </div>
-            </div>
-            <div className="mb-3 rounded-full bg-slate-50 px-4 leading-4 shadow-md shadow-white opacity-90 py-1 ">
-                <div className="font-medium">
-                   <h3 className="font-bold mt-1"> DESAYUNOS </h3>
-                </div>
-                <div className="text-gray-500">
-                    <p>Tostadas ricas y nutritivas  </p>
-                </div>
-                <div className="flex justify-end  text-right pr-2 inline-block">
-                    <h3 className="font-bold bg-Celeste rounded-full px-2 py-1">5,00€</h3>
-                </div>
-            </div>
-        </div> */}
-
-        <div className="flex-col items-center m-2" >
-            {comidas ? state?.comidas.map( item =>
-                <div key={item.id} className="border-b-2 border-gray-300 mb-3 rounded-full bg-slate-50 px-4 leading-4 shadow-md shadow-white opacity-90 py-1  ">
+            )
+            :
+            comida ? state.comida.map(item => 
+                <div key={item.id} className="mb-3 rounded-2xl bg-slate-50 px-4  shadow-md shadow-white opacity-90 py-1">
                     <div className="font-medium">
                         <h3 className="font-bold mt-1">{item.name}</h3>
                     </div>
@@ -62,10 +43,10 @@ const Content = () => {
                         <h3 className="font-bold bg-Celeste rounded-full px-2 py-1">{item.price}{item.symbol}</h3>
                     </div>
                 </div>
-            )
-            : 
-            bebidas ? state.bebidas.map(item => 
-                <div key={item.id} className="mb-3 rounded-full bg-slate-50 px-4 leading-4 shadow-md shadow-white opacity-90 py-1  ">
+                ) 
+            :    
+            bocadillo ? state.bocadillo.map(item => 
+                <div key={item.id} className="mb-3 rounded-2xl bg-slate-50 px-4  shadow-md shadow-white opacity-90 py-1  ">
                     <div className="font-medium">
                         <h3 className="font-bold mt-1">{item.name}</h3>
                     </div>
@@ -78,8 +59,8 @@ const Content = () => {
                 </div>
                 ) 
             :   
-            postres ? state.postres.map(item => 
-                <div key={item.id} className="mb-3 rounded-full bg-slate-50 px-4 leading-4 shadow-md shadow-white opacity-90 py-1  ">
+            bebida ? state.bebida.map(item => 
+                <div key={item.id} className="mb-3 rounded-2xl bg-slate-50 px-4 shadow-md shadow-white opacity-90 py-1 ">
                     <div className="font-medium">
                         <h3 className="font-bold mt-1">{item.name}</h3>
                     </div>
@@ -92,8 +73,8 @@ const Content = () => {
                 </div>
                 ) 
             :  
-            niños ? state.niños.map(item => 
-                <div key={item.id} className="mb-3 rounded-full bg-slate-50 px-4 leading-4 shadow-md shadow-white opacity-90 py-1  ">
+            postre ? state.postre.map(item => 
+                <div key={item.id} className="mb-3 rounded-2xl bg-slate-50 px-4  shadow-md shadow-white opacity-90 py-1  ">
                     <div className="font-medium">
                         <h3 className="font-bold mt-1">{item.name}</h3>
                     </div>
@@ -106,7 +87,7 @@ const Content = () => {
                 </div>
                 ) 
             :  
-            <div className="h-full">
+            <div className="min-h-screen">
             <div className="flex justify-start">
                 <div className="ml-0  h-20 w-20 " >
                     <img src={sol} alt="Logo Altamar"></img>
@@ -117,8 +98,8 @@ const Content = () => {
                     <div className="mx-auto mb-3 h-20 w-20 " >
                         <img src={chiringuito} alt="Logo Altamar"></img>
                     </div>
-                    <h2 className="text-4xl">¡Bienvenido!</h2>
-                    <h3>¿Qué te apetece hoy?</h3>
+                    <h2 className="text-4xl hola">¡ Bienvenido!</h2>
+                    <h3 className="hola">¿Qué te apetece hoy?</h3>
                 </div>
             </div>
             <div className="flex justify-end">
@@ -129,8 +110,44 @@ const Content = () => {
             </div>
             }
         </div>
-    </>
+    </div>
     )
 }
 
 export default Content ;
+
+        {/* <div className=" m-6 " >
+            <div className="mb-3 rounded-full bg-slate-50 px-4  shadow-md shadow-white opacity-90 py-1 ">
+                <div className="font-medium">
+                   <h3 className="font-bold mt-1"> desayunoS </h3>
+                </div>
+                <div className="text-gray-500">
+                    <p>Tostadas ricas y nutritivas  </p>
+                </div>
+                <div className="flex justify-end  text-right pr-2 inline-block">
+                    <h3 className="font-bold bg-Celeste rounded-full px-2 py-1">5,00€</h3>
+                </div>
+            </div>
+            <div className=" mb-3 rounded-full bg-slate-50 px-4  shadow-md shadow-white opacity-90 py-1 ">
+                <div className="font-medium">
+                   <h3 className="font-bold mt-1"> DESAYUNOS </h3>
+                </div>
+                <div className="text-gray-500">
+                    <p>Tostadas ricas y nutritivas  </p>
+                </div>
+                <div className="flex justify-end  text-right pr-2 inline-block">
+                    <h3 className="font-bold bg-Celeste rounded-full px-2 py-1">5,00€</h3>
+                </div>
+            </div>
+            <div className="mb-3 rounded-full bg-slate-50 px-4  shadow-md shadow-white opacity-90 py-1 ">
+                <div className="font-medium">
+                   <h3 className="font-bold mt-1"> DESAYUNOS </h3>
+                </div>
+                <div className="text-gray-500">
+                    <p>Tostadas ricas y nutritivas  </p>
+                </div>
+                <div className="flex justify-end  text-right pr-2 inline-block">
+                    <h3 className="font-bold bg-Celeste rounded-full px-2 py-1">5,00€</h3>
+                </div>
+            </div>
+        </div> */}

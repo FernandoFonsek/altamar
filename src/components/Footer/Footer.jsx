@@ -5,7 +5,7 @@ const Footer = () => {
     return (
 
         <div className="">
-            <hr className="my-10"></hr>&copy;
+            <hr className="mb-0"></hr>&copy;
             <h3>Contacto </h3>
             <a href="tel:602520620">Cel: 602520620</a>
 

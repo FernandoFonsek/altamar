@@ -15,10 +15,8 @@ const Header = () => {
     const handleLenguage = () => setIdioma(!idioma)
 
 return (
-    // border-2 border-black
-    
-    <div className="flex justify-around items-center bg-white h-12 text-black">
-        <div className="h-8 w-12" >
+    <div className="z-50 fixed w-full mb-8 flex justify-around items-center bg-Rosado h-14 text-black">
+        <div className="h-12 w-16" >
             <img src={logo} alt="Logo Altamar"></img>
         </div>
         <div>
