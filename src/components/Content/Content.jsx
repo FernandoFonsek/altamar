@@ -12,8 +12,8 @@ const Content = () => {
     const {state, dispatch, comida, bebida, postre, bocadillo, desayuno } = useContext(SelectorContext)
     console.log(comida)
     return (
-        <div className="m-0"> 
-        <div className="flex-col items-center mx-2 pt-40" >
+        <div className=""> 
+        <div className="flex-col items-center mx-4 pt-40" >
             {desayuno ? state?.desayuno.map( item =>
                 <div key={item.id} className="border-b-2 border-gray-300 mb-3 rounded-2xl bg-slate-50 px-4 shadow-md shadow-white opacity-90 py-1  ">
                     <div className="font-medium">
@@ -34,7 +34,7 @@ const Content = () => {
             comida ? state.comida.map(item => 
                 <div key={item.id} className="mb-3 rounded-2xl bg-slate-50 px-4  shadow-md shadow-white opacity-90 py-1">
                     <div className="font-medium">
-                        <h3 className="font-bold mt-1">{item.name}</h3>
+                        <h3 className="font-bold mt-1"><spam className="bg-Celeste rounded-md text-center px-1 ">{item.codigo}</spam> {item.name}</h3>
                     </div>
                     <div className="text-gray-500">
                         <p>{item.description}</p>
@@ -48,7 +48,7 @@ const Content = () => {
             bocadillo ? state.bocadillo.map(item => 
                 <div key={item.id} className="mb-3 rounded-2xl bg-slate-50 px-4  shadow-md shadow-white opacity-90 py-1  ">
                     <div className="font-medium">
-                        <h3 className="font-bold mt-1">{item.name}</h3>
+                        <h3 className="font-bold mt-1"><spam className="bg-Celeste rounded-md text-center px-1 ">{item.codigo}</spam> {item.name}</h3>
                     </div>
                     <div className="text-gray-500">
                         <p>{item.description}</p>
@@ -62,7 +62,7 @@ const Content = () => {
             bebida ? state.bebida.map(item => 
                 <div key={item.id} className="mb-3 rounded-2xl bg-slate-50 px-4 shadow-md shadow-white opacity-90 py-1 ">
                     <div className="font-medium">
-                        <h3 className="font-bold mt-1">{item.name}</h3>
+                        <h3 className="font-bold mt-1"><spam className="bg-Celeste rounded-md text-center px-1 ">{item.codigo}</spam> {item.name}</h3>
                     </div>
                     <div className="text-gray-500">
                         <p>{item.description}</p>
@@ -76,7 +76,7 @@ const Content = () => {
             postre ? state.postre.map(item => 
                 <div key={item.id} className="mb-3 rounded-2xl bg-slate-50 px-4  shadow-md shadow-white opacity-90 py-1  ">
                     <div className="font-medium">
-                        <h3 className="font-bold mt-1">{item.name}</h3>
+                        <h3 className="font-bold mt-1"><spam className="bg-Celeste rounded-md text-center px-1 ">{item.codigo}</spam> {item.name}</h3>
                     </div>
                     <div className="text-gray-500">
                         <p>{item.description}</p>

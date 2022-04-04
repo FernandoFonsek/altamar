@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
       <SelectorProvider>
       <Routes>
-        <Route path="/Home" element={<Home/>} />
+        <Route path="/" element={<Home/>} />
       </Routes>
       </SelectorProvider>
     </BrowserRouter>

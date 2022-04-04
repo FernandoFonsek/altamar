@@ -683,21 +683,12 @@ bebida: [
         description: "",
         adddescription: "",
         symbol: "€",
-        codigo: "BE-35"
-    },  
-    {
-        id: 37,
-        name: "COPA DE VINO TINTO",
-        price: "3,50",
-        description: "",
-        adddescription: "",
-        symbol: "€",
         codigo: "BE-36"
     },  
     {
         id: 38,
-        name: "BOTELLA DE VINO TINTO",
-        price: "15,00",
+        name: "COPA DE VINO TINTO",
+        price: "3,50",
         description: "",
         adddescription: "",
         symbol: "€",
@@ -705,8 +696,8 @@ bebida: [
     },  
     {
         id: 39,
-        name: "COPA DE VINO BLANCO",
-        price: "3,50",
+        name: "BOTELLA DE VINO TINTO",
+        price: "15,00",
         description: "",
         adddescription: "",
         symbol: "€",
@@ -714,8 +705,8 @@ bebida: [
     },  
     {
         id: 40,
-        name: "BOTELLA DE VINO BLACO",
-        price: "15,00",
+        name: "COPA DE VINO BLANCO",
+        price: "3,50",
         description: "",
         adddescription: "",
         symbol: "€",
@@ -723,8 +714,8 @@ bebida: [
     },  
     {
         id: 41,
-        name: "TINTO DE VERANO",
-        price: "2,50",
+        name: "BOTELLA DE VINO BLACO",
+        price: "15,00",
         description: "",
         adddescription: "",
         symbol: "€",
@@ -732,8 +723,8 @@ bebida: [
     },  
     {
         id: 42,
-        name: "JARRA TINTO DE VERANO",
-        price: "8,00",
+        name: "TINTO DE VERANO",
+        price: "2,50",
         description: "",
         adddescription: "",
         symbol: "€",
@@ -741,12 +732,21 @@ bebida: [
     },  
     {
         id: 43,
+        name: "JARRA TINTO DE VERANO",
+        price: "8,00",
+        description: "",
+        adddescription: "",
+        symbol: "€",
+        codigo: "BE-42"
+    },  
+    {
+        id: 44,
         name: "MICHELADA",
         price: "3,00",
         description: "",
         adddescription: "",
         symbol: "€",
-        codigo: "BE-42"
+        codigo: "BE-43"
     },  
 ],
 postre: [

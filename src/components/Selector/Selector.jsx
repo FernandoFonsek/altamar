@@ -11,7 +11,7 @@ const Selector = () => {
 
     const { state, dispatch, desayuno, comida, bocadillo, bebida, postre, handleBebida, handleComida, handleDesayuno, handleBocadillo, handlePostre } = useContext(SelectorContext)
     return (
-        <div className="z-40 flex justify-evenly pt-16 pb-4 bg-AzulDark fixed w-full text-white">
+        <div className="z-40 flex justify-evenly pt-16 pb-2 bg-AzulDark fixed w-full text-white">
             <button onClick={() => handleDesayuno()} className={` ${desayuno ? 'bg-white text-black' : 'bg-Celeste' } flex-col content-between
              items-center  text-xs rounded-lg p-2 w-1/6 `}>
                 <div className="mx-auto h-8 w-12" >
