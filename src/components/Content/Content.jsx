@@ -87,7 +87,7 @@ const Content = () => {
                 </div>
                 ) 
             :  
-            <div className="min-h-3/4">
+            <div className="min-h-4/5">
                 <div className="flex justify-start">
                     <div className="ml-0  h-20 w-20 mb-8 " >
                         <img src={sol} alt="Logo Altamar"></img>
