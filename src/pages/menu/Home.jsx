@@ -8,7 +8,7 @@ import Prueba from "../../components/Content/Prueba";
 const Home = () =>{
 
     return(
-        <div className="bg-AzulDark">
+        <div className="bg-AzulDark m-h-screen">
             <Header/>
             <Selector/> 
             <Content/>
