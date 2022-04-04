@@ -652,7 +652,7 @@ bebida: [
     {
         id: 34,
         name: "C O C T E L E S",
-        price: "",
+        price: false,
         description: "",
         adddescription: "",
         symbol: "€",

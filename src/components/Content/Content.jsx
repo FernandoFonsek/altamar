@@ -61,15 +61,16 @@ const Content = () => {
             :   
             bebida ? state.bebida.map(item => 
                 <div key={item.id} className="mb-3 rounded-2xl bg-slate-50 px-4 shadow-md shadow-white opacity-90 py-1 ">
-                    <div className="font-medium">
-                        <h3 className="font-bold mt-1"><spam className="bg-Celeste rounded-md text-center px-1 ">{item.codigo}</spam> {item.name}</h3>
+                    {item.price ? <div className="font-medium">
+                         <h3 className="font-bold mt-1"><spam className="bg-Celeste rounded-md text-center px-1 ">{item.codigo}</spam> {item.name}</h3>
                     </div>
-                    <div className="text-gray-500">
+                    : <h3 className="font-extrabold mt-1 text-center">{item.name}</h3>  }
+                    {item.price ? <div className="text-gray-500">
                         <p>{item.description}</p>
-                    </div>
-                    <div className="flex justify-end  text-right pr-2 inline-block">
+                    </div> : null }
+                    {item.price ? <div className="flex justify-end  text-right pr-2 inline-block">
                         <h3 className="font-bold bg-Celeste rounded-full px-2 py-1">{item.price}{item.symbol}</h3>
-                    </div>
+                    </div> : null}
                 </div>
                 ) 
             :  
