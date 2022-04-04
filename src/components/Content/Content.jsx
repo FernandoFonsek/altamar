@@ -89,7 +89,7 @@ const Content = () => {
             :  
             <div className="min-h-4/5">
                 <div className="flex justify-start">
-                    <div className="ml-0  h-20 w-20 mb-8 " >
+                    <div className="ml-0  h-20 w-20 mb-20" >
                         <img src={sol} alt="Logo Altamar"></img>
                     </div>
                 </div>
@@ -103,7 +103,7 @@ const Content = () => {
                         <h3 className="hola">¿Qué te apetece hoy?</h3>
                     </div>
                 </div>
-                <div className="flex justify-end">
+                <div className="flex justify-end mt-20">
                     <div className="ml-0 mt-10 h-20 w-24 mb-8">
                         <img src={palmera} alt="Logo Altamar"></img>
                     </div>

@@ -23,11 +23,11 @@ const Footer = () => {
             <a classname="text-sm" href="tel:602520620 text-gray-400">+34 611 24 42 40 </a>
             <h3 className="text-center font-bold mt-4 mb-2">Siguenos en</h3>
             <div className="flex  justify-around items-center mx-auto w-1/2 ">
-                <a href="https://altamar.vercel.app/"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://altamar.vercel.app/"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://altamar.vercel.app/"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://altamar.vercel.app/"><i class="fa-brands fa-tiktok"></i></a>
-                <a href="https://altamar.vercel.app/"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://altamar.vercel.app/menu"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://altamar.vercel.app/menu"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://altamar.vercel.app/menu"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://altamar.vercel.app/menu"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://altamar.vercel.app/menu"><i class="fa-brands fa-youtube"></i></a>
             </div>
 
             <p className="text-center font-thin text-xs mt-8 text-gray-400">Copyright &copy; 2022 All Rights Reserved by Altamar </p>
