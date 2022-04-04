@@ -18,7 +18,12 @@ const Footer = () => {
                 </a>
             </div>
             <h3 className="font-bold">Dirección</h3>
-            <h3 className="mb-4 text-gray-400">Puerto la llana</h3>
+            <h3 className="text-gray-400">Puerto la llana</h3>
+            <h3 className="text-gray-400">San Pedro del Pinatar</h3>
+            <h3 className="text-gray-400">Murcia</h3>
+            <h3 className="mb-4 text-gray-400">España</h3>
+            <h3 className="font-bold">Horario</h3>
+            <h3 className="text-gray-400 mb-4">Todos los dias a partir de las 8:00</h3>
             <h3 className="font-bold">Contacto</h3>
             <a classname="text-sm" href="tel:602520620 text-gray-400">+34 611 24 42 40 </a>
             <h3 className="text-center font-bold mt-4 mb-2">Siguenos en</h3>
