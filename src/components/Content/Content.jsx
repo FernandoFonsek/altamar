@@ -12,7 +12,7 @@ const Content = () => {
     const {state, dispatch, comida, bebida, postre, bocadillo, desayuno } = useContext(SelectorContext)
     console.log(comida)
     return (
-        <div className=""> 
+        <div className="mb-40"> 
         <div className="flex-col items-center mx-4 pt-40" >
             {desayuno ? state?.desayuno.map( item =>
                 <div key={item.id} className="border-b-2 border-gray-300 mb-3 rounded-2xl bg-slate-50 px-4 shadow-md shadow-white opacity-90 py-1  ">
@@ -99,6 +99,7 @@ const Content = () => {
                             <img src={chiringuito} alt="Logo Altamar"></img>
                         </div>
                         <h2 className="text-4xl hola">¡Bienvenido!</h2>
+                        <h2 className="text-4xl holaAltamar text-Rosado">Altamar</h2>
                         <h3 className="hola">¿Qué te apetece hoy?</h3>
                     </div>
                 </div>
