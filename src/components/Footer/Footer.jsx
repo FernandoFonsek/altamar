@@ -25,7 +25,7 @@ const Footer = () => {
             <h3 className="font-bold">Horario</h3>
             <h3 className="text-gray-400 mb-4">Todos los dias a partir de las 8:00</h3>
             <h3 className="font-bold">Contacto</h3>
-            <a className="text-sm text-gray-400" href="tel:602520620">+34 611 24 42 40 </a>
+            <a className="text-sm text-gray-400" href="tel:+34602520620">+34 611 24 42 40 </a>
             <h3 className="text-center font-bold mt-4 mb-2">Siguenos en</h3>
             <div className="flex  justify-around items-center mx-auto w-1/2 ">
                 <a href="https://altamar.vercel.app/menu"><i className="fa-brands fa-instagram"></i></a>
