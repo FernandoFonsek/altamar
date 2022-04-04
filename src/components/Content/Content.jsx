@@ -3,7 +3,6 @@ import SelectorContext from "../conext/SelectorContext/SelectorContext";
 
 //Assets
 import chiringuito from "../../assets/chiringuito.png"
-import muelle from "../../assets/muelle.png"
 import sol from "../../assets/sol.png"
 import palmera from "../../assets/palmera.png"
 
@@ -17,7 +16,7 @@ const Content = () => {
             {desayuno ? state?.desayuno.map( item =>
                 <div key={item.id} className="border-b-2 border-gray-300 mb-3 rounded-2xl bg-slate-50 px-4 shadow-md shadow-white opacity-90 py-1  ">
                     <div className="font-medium">
-                        <h3 className="font-bold mt-1"><spam className="bg-Celeste rounded-md text-center px-1 ">{item.codigo}</spam> {item.name}</h3>
+                        <h3 className="font-bold mt-1"><span className="bg-Celeste rounded-md text-center px-1 ">{item.codigo}</span> {item.name}</h3>
                     </div>
                     <div className="text-gray-500">
                         <p>{item.description}</p>
@@ -34,7 +33,7 @@ const Content = () => {
             comida ? state.comida.map(item => 
                 <div key={item.id} className="mb-3 rounded-2xl bg-slate-50 px-4  shadow-md shadow-white opacity-90 py-1">
                     <div className="font-medium">
-                        <h3 className="font-bold mt-1"><spam className="bg-Celeste rounded-md text-center px-1 ">{item.codigo}</spam> {item.name}</h3>
+                        <h3 className="font-bold mt-1"><span className="bg-Celeste rounded-md text-center px-1 ">{item.codigo}</span> {item.name}</h3>
                     </div>
                     <div className="text-gray-500">
                         <p>{item.description}</p>
@@ -48,7 +47,7 @@ const Content = () => {
             bocadillo ? state.bocadillo.map(item => 
                 <div key={item.id} className="mb-3 rounded-2xl bg-slate-50 px-4  shadow-md shadow-white opacity-90 py-1  ">
                     <div className="font-medium">
-                        <h3 className="font-bold mt-1"><spam className="bg-Celeste rounded-md text-center px-1 ">{item.codigo}</spam> {item.name}</h3>
+                        <h3 className="font-bold mt-1"><span className="bg-Celeste rounded-md text-center px-1 ">{item.codigo}</span> {item.name}</h3>
                     </div>
                     <div className="text-gray-500">
                         <p>{item.description}</p>
@@ -62,7 +61,7 @@ const Content = () => {
             bebida ? state.bebida.map(item => 
                 <div key={item.id} className="mb-3 rounded-2xl bg-slate-50 px-4 shadow-md shadow-white opacity-90 py-1 ">
                     {item.price ? <div className="font-medium">
-                         <h3 className="font-bold mt-1"><spam className="bg-Celeste rounded-md text-center px-1 ">{item.codigo}</spam> {item.name}</h3>
+                         <h3 className="font-bold mt-1"><span className="bg-Celeste rounded-md text-center px-1 ">{item.codigo}</span> {item.name}</h3>
                     </div>
                     : <h3 className="font-extrabold mt-1 text-center">{item.name}</h3>  }
                     {item.price ? <div className="text-gray-500">
@@ -77,7 +76,7 @@ const Content = () => {
             postre ? state.postre.map(item => 
                 <div key={item.id} className="mb-3 rounded-2xl bg-slate-50 px-4  shadow-md shadow-white opacity-90 py-1  ">
                     <div className="font-medium">
-                        <h3 className="font-bold mt-1"><spam className="bg-Celeste rounded-md text-center px-1 ">{item.codigo}</spam> {item.name}</h3>
+                        <h3 className="font-bold mt-1"><span className="bg-Celeste rounded-md text-center px-1 ">{item.codigo}</span> {item.name}</h3>
                     </div>
                     <div className="text-gray-500">
                         <p>{item.description}</p>
@@ -117,39 +116,3 @@ const Content = () => {
 }
 
 export default Content ;
-
-        {/* <div className=" m-6 " >
-            <div className="mb-3 rounded-full bg-slate-50 px-4  shadow-md shadow-white opacity-90 py-1 ">
-                <div className="font-medium">
-                   <h3 className="font-bold mt-1"> desayunoS </h3>
-                </div>
-                <div className="text-gray-500">
-                    <p>Tostadas ricas y nutritivas  </p>
-                </div>
-                <div className="flex justify-end  text-right pr-2 inline-block">
-                    <h3 className="font-bold bg-Celeste rounded-full px-2 py-1">5,00€</h3>
-                </div>
-            </div>
-            <div className=" mb-3 rounded-full bg-slate-50 px-4  shadow-md shadow-white opacity-90 py-1 ">
-                <div className="font-medium">
-                   <h3 className="font-bold mt-1"> DESAYUNOS </h3>
-                </div>
-                <div className="text-gray-500">
-                    <p>Tostadas ricas y nutritivas  </p>
-                </div>
-                <div className="flex justify-end  text-right pr-2 inline-block">
-                    <h3 className="font-bold bg-Celeste rounded-full px-2 py-1">5,00€</h3>
-                </div>
-            </div>
-            <div className="mb-3 rounded-full bg-slate-50 px-4  shadow-md shadow-white opacity-90 py-1 ">
-                <div className="font-medium">
-                   <h3 className="font-bold mt-1"> DESAYUNOS </h3>
-                </div>
-                <div className="text-gray-500">
-                    <p>Tostadas ricas y nutritivas  </p>
-                </div>
-                <div className="flex justify-end  text-right pr-2 inline-block">
-                    <h3 className="font-bold bg-Celeste rounded-full px-2 py-1">5,00€</h3>
-                </div>
-            </div>
-        </div> */}

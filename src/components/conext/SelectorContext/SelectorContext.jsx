@@ -251,17 +251,17 @@ comida: [
     },
     {
         id: 16,
-        name: "PINCHO DE TORTILLA",
-        price: "3,00",
-        description: "",
+        name: "PINCHO",
+        price: "5,00",
+        description: "Ternera o Pollo o Mixto",
         adddescription: "",
         symbol: "€",
         codigo: "C-16"
     },
     {
         id: 17,
-        name: "PATATAS BRAVAS",
-        price: "4,00",
+        name: "PINCHO DE TORTILLA",
+        price: "3,00",
         description: "",
         adddescription: "",
         symbol: "€",
@@ -269,30 +269,39 @@ comida: [
     },
     {
         id: 18,
-        name: "HAMBURGUESA DE TERNERA",
-        price: "10,00",
-        description: "Patatas-Tomate-Cebolla-Queso-Jamón York-Lechuga",
+        name: "PATATAS BRAVAS",
+        price: "4,00",
+        description: "",
         adddescription: "",
         symbol: "€",
         codigo: "C-18"
     },
     {
         id: 19,
-        name: "HOT DOG",
-        price: "6,00",
-        description: "",
+        name: "HAMBURGUESA DE TERNERA",
+        price: "10,00",
+        description: "Patatas-Tomate-Cebolla-Queso-Jamón York-Lechuga",
         adddescription: "",
         symbol: "€",
         codigo: "C-19"
     },
     {
         id: 20,
-        name: "SALCHIPAPA",
+        name: "HOT DOG",
         price: "6,00",
         description: "",
         adddescription: "",
         symbol: "€",
         codigo: "C-20"
+    },
+    {
+        id: 21,
+        name: "SALCHIPAPA",
+        price: "6,00",
+        description: "",
+        adddescription: "",
+        symbol: "€",
+        codigo: "C-21"
     },
 ],
 bocadillo: [
@@ -408,17 +417,17 @@ bebida: [
     },    
     {
         id: 7,
-        name: "BOTE DE AGUA PEQUEÑO",
-        price: "1,00",
+        name: "BOTE DE CERVEZA",
+        price: "2,00",
         description: "",
         adddescription: "",
         symbol: "€",
         codigo: "BE-7"
-    },    
+    },   
     {
         id: 8,
-        name: "BOTE DE AGUA GRANDE",
-        price: "2,00",
+        name: "COCA COLA",
+        price: "2,50",
         description: "",
         adddescription: "",
         symbol: "€",
@@ -426,25 +435,25 @@ bebida: [
     },   
     {
         id: 9,
-        name: "BOTE DE CERVEZA",
-        price: "2,00",
+        name: "COCA COLA ZERO",
+        price: "2,50",
         description: "",
         adddescription: "",
         symbol: "€",
         codigo: "BE-9"
-    },   
+    },  
     {
         id: 10,
-        name: "COCA COLA",
+        name: "FANTA",
         price: "2,50",
         description: "",
         adddescription: "",
         symbol: "€",
         codigo: "BE-10"
-    },   
+    },  
     {
         id: 11,
-        name: "COCA COLA ZERO",
+        name: "AQUARIUS",
         price: "2,50",
         description: "",
         adddescription: "",
@@ -453,8 +462,8 @@ bebida: [
     },  
     {
         id: 12,
-        name: "FANTA",
-        price: "2,50",
+        name: "NESTEA",
+        price: "2,00",
         description: "",
         adddescription: "",
         symbol: "€",
@@ -462,8 +471,8 @@ bebida: [
     },  
     {
         id: 13,
-        name: "AQUARIUS",
-        price: "2,50",
+        name: "ZUMO DE NARANJA",
+        price: "2,00",
         description: "",
         adddescription: "",
         symbol: "€",
@@ -471,7 +480,7 @@ bebida: [
     },  
     {
         id: 14,
-        name: "NESTEA",
+        name: "ZUMO DE BOTELLA",
         price: "2,00",
         description: "",
         adddescription: "",
@@ -480,7 +489,7 @@ bebida: [
     },  
     {
         id: 15,
-        name: "ZUMO DE NARANJA",
+        name: "CHOLECT",
         price: "2,00",
         description: "",
         adddescription: "",
@@ -489,8 +498,8 @@ bebida: [
     },  
     {
         id: 16,
-        name: "ZUMO DE BOTELLA",
-        price: "2,00",
+        name: "BUTTER",
+        price: "2,50",
         description: "",
         adddescription: "",
         symbol: "€",
@@ -498,8 +507,8 @@ bebida: [
     },  
     {
         id: 17,
-        name: "CHOLECT",
-        price: "2,00",
+        name: "TÓNICA",
+        price: "2,50",
         description: "",
         adddescription: "",
         symbol: "€",
@@ -507,7 +516,7 @@ bebida: [
     },  
     {
         id: 18,
-        name: "BUTTER",
+        name: "AGUA CON GAS",
         price: "2,50",
         description: "",
         adddescription: "",
@@ -516,8 +525,8 @@ bebida: [
     },  
     {
         id: 19,
-        name: "TÓNICA",
-        price: "2,50",
+        name: "AGUA PEQUEÑA",
+        price: "1,00",
         description: "",
         adddescription: "",
         symbol: "€",
@@ -525,8 +534,8 @@ bebida: [
     },  
     {
         id: 20,
-        name: "AGUA CON GAS",
-        price: "2,50",
+        name: "AGUA GRANDE",
+        price: "2,00",
         description: "",
         adddescription: "",
         symbol: "€",
@@ -534,8 +543,8 @@ bebida: [
     },  
     {
         id: 21,
-        name: "AGUA GRANDE",
-        price: "2,00",
+        name: "RED BULL",
+        price: "5,00",
         description: "",
         adddescription: "",
         symbol: "€",
@@ -543,8 +552,8 @@ bebida: [
     },  
     {
         id: 22,
-        name: "RED BULL",
-        price: "5,00",
+        name: "BITTER KAS",
+        price: "2,00",
         description: "",
         adddescription: "",
         symbol: "€",
@@ -552,7 +561,7 @@ bebida: [
     },  
     {
         id: 23,
-        name: "BITTER KAS",
+        name: "SEVEN UP",
         price: "2,00",
         description: "",
         adddescription: "",
@@ -561,8 +570,8 @@ bebida: [
     },  
     {
         id: 24,
-        name: "AGUA CON GAS",
-        price: "2,50",
+        name: "GRANIZADOS",
+        price: "2,00",
         description: "",
         adddescription: "",
         symbol: "€",
@@ -570,52 +579,52 @@ bebida: [
     },  
     {
         id: 25,
-        name: "SEVEN UP",
-        price: "2,00",
-        description: "",
+        name: "CHOLAOS",
+        price: "6,00",
+        description: "Fruta picada-Helado-Topping",
         adddescription: "",
         symbol: "€",
         codigo: "BE-25"
     },  
     {
         id: 26,
-        name: "GRANIZADOS",
-        price: "2,00",
-        description: "",
+        name: "MANGO BICHE",
+        price: "3,00",
+        description: "Sal-Limón-Pimienta",
         adddescription: "",
         symbol: "€",
         codigo: "BE-26"
     },  
     {
         id: 27,
-        name: "CHOLAOS",
-        price: "6,00",
-        description: "Fruta picada-Helado-Topping",
+        name: "BATIDOS",
+        price: "5,00",
+        description: "Mango-Plátano-Piña-Fresa-Frutos rojos",
         adddescription: "",
         symbol: "€",
         codigo: "BE-27"
     },  
     {
         id: 28,
-        name: "MANGO BICHE",
-        price: "3,00",
-        description: "Sal-Limón-Pimienta",
+        name: "CANASTA PIÑATA",
+        price: "4,00",
+        description: "",
         adddescription: "",
         symbol: "€",
         codigo: "BE-28"
     },  
     {
         id: 29,
-        name: "BATIDOS",
-        price: "5,00",
-        description: "Mango-Plátano-Piña-Fresa-Frutos rojos",
+        name: "CONOS",
+        price: "2,00",
+        description: "",
         adddescription: "",
         symbol: "€",
         codigo: "BE-29"
     },  
     {
         id: 30,
-        name: "CANASTA PIÑATA",
+        name: "TARRINAS",
         price: "4,00",
         description: "",
         adddescription: "",
@@ -624,17 +633,17 @@ bebida: [
     },  
     {
         id: 31,
-        name: "CONOS",
-        price: "2,00",
-        description: "",
+        name: "MALTEADAS",
+        price: "6,00",
+        description: "Fresa-Vainilla-Chocolate",
         adddescription: "",
         symbol: "€",
         codigo: "BE-31"
     },  
     {
         id: 32,
-        name: "ARRINAS",
-        price: "4,00",
+        name: "COLACAO",
+        price: "1,00",
         description: "",
         adddescription: "",
         symbol: "€",
@@ -642,15 +651,78 @@ bebida: [
     },  
     {
         id: 33,
-        name: "MALTEADAS",
-        price: "6,00",
-        description: "Fresa-Vainilla-Chocolate",
+        name: "INFUSIONES",
+        price: "1,20",
+        description: "",
         adddescription: "",
         symbol: "€",
         codigo: "BE-33"
     },  
     {
         id: 34,
+        name: "CAFÉ SOLO",
+        price: "1,50",
+        description: "",
+        adddescription: "",
+        symbol: "€",
+        codigo: "BE-34"
+    },  
+    {
+        id: 35,
+        name: "CAFE AMERICANO",
+        price: "1,60",
+        description: "",
+        adddescription: "",
+        symbol: "€",
+        codigo: "BE-35"
+    }, 
+    {
+        id: 36,
+        name: "CAFE CON LECHE",
+        price: "2,00",
+        description: "",
+        adddescription: "",
+        symbol: "€",
+        codigo: "BE-36"
+    }, 
+    {
+        id: 37,
+        name: "BOMBÓN",
+        price: "2,00",
+        description: "",
+        adddescription: "",
+        symbol: "€",
+        codigo: "BE-37"
+    }, 
+    {
+        id: 38,
+        name: "CARAJILLO",
+        price: "2,00",
+        description: "",
+        adddescription: "",
+        symbol: "€",
+        codigo: "BE-38"
+    }, 
+    {
+        id: 39,
+        name: "BELMONTE",
+        price: "2,00",
+        description: "",
+        adddescription: "",
+        symbol: "€",
+        codigo: "BE-39"
+    }, 
+    {
+        id: 40,
+        name: "CAPUCHINO",
+        price: "2,00",
+        description: "",
+        adddescription: "",
+        symbol: "€",
+        codigo: "BE-40"
+    }, 
+    {
+        id: 41,
         name: "C O C T E L E S",
         price: false,
         description: "",
@@ -659,72 +731,9 @@ bebida: [
         codigo: ""
     },  
     {
-        id: 35,
+        id: 42,
         name: "MOJITO",
         price: "6,00",
-        description: "",
-        adddescription: "",
-        symbol: "€",
-        codigo: "BE-34"
-    },  
-    {
-        id: 36,
-        name: "CHUPITOS",
-        price: "1,00",
-        description: "",
-        adddescription: "",
-        symbol: "€",
-        codigo: "BE-35"
-    },  
-    {
-        id: 37,
-        name: "WHISKY A LA ROCA",
-        price: "4,00",
-        description: "",
-        adddescription: "",
-        symbol: "€",
-        codigo: "BE-36"
-    },  
-    {
-        id: 38,
-        name: "COPA DE VINO TINTO",
-        price: "3,50",
-        description: "",
-        adddescription: "",
-        symbol: "€",
-        codigo: "BE-37"
-    },  
-    {
-        id: 39,
-        name: "BOTELLA DE VINO TINTO",
-        price: "15,00",
-        description: "",
-        adddescription: "",
-        symbol: "€",
-        codigo: "BE-38"
-    },  
-    {
-        id: 40,
-        name: "COPA DE VINO BLANCO",
-        price: "3,50",
-        description: "",
-        adddescription: "",
-        symbol: "€",
-        codigo: "BE-39"
-    },  
-    {
-        id: 41,
-        name: "BOTELLA DE VINO BLACO",
-        price: "15,00",
-        description: "",
-        adddescription: "",
-        symbol: "€",
-        codigo: "BE-40"
-    },  
-    {
-        id: 42,
-        name: "TINTO DE VERANO",
-        price: "2,50",
         description: "",
         adddescription: "",
         symbol: "€",
@@ -732,21 +741,93 @@ bebida: [
     },  
     {
         id: 43,
+        name: "GIC TONIC",
+        price: "6,00",
+        description: "",
+        adddescription: "",
+        symbol: "€",
+        codigo: "BE-42"
+    }, 
+    {
+        id: 44,
+        name: "CHUPITOS",
+        price: "1,00",
+        description: "",
+        adddescription: "",
+        symbol: "€",
+        codigo: "BE-43"
+    },  
+    {
+        id: 45,
+        name: "WHISKY A LA ROCA",
+        price: "4,00",
+        description: "",
+        adddescription: "",
+        symbol: "€",
+        codigo: "BE-44"
+    },  
+    {
+        id: 46,
+        name: "COPA DE VINO TINTO",
+        price: "3,50",
+        description: "",
+        adddescription: "",
+        symbol: "€",
+        codigo: "BE-45"
+    },  
+    {
+        id: 47,
+        name: "BOTELLA DE VINO TINTO",
+        price: "15,00",
+        description: "",
+        adddescription: "",
+        symbol: "€",
+        codigo: "BE-46"
+    },  
+    {
+        id: 48,
+        name: "COPA DE VINO BLANCO",
+        price: "3,50",
+        description: "",
+        adddescription: "",
+        symbol: "€",
+        codigo: "BE-47"
+    },  
+    {
+        id: 49,
+        name: "BOTELLA DE VINO BLANCO",
+        price: "15,00",
+        description: "",
+        adddescription: "",
+        symbol: "€",
+        codigo: "BE-48"
+    },  
+    {
+        id: 50,
+        name: "TINTO DE VERANO",
+        price: "2,50",
+        description: "",
+        adddescription: "",
+        symbol: "€",
+        codigo: "BE-49"
+    },  
+    {
+        id: 51,
         name: "JARRA TINTO DE VERANO",
         price: "8,00",
         description: "",
         adddescription: "",
         symbol: "€",
-        codigo: "BE-42"
+        codigo: "BE-50"
     },  
     {
-        id: 44,
+        id: 52,
         name: "MICHELADA",
         price: "3,00",
         description: "",
         adddescription: "",
         symbol: "€",
-        codigo: "BE-43"
+        codigo: "BE-51"
     },  
 ],
 postre: [
