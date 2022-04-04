@@ -88,25 +88,25 @@ const Content = () => {
                 ) 
             :  
             <div className="min-h-screen">
-            <div className="flex justify-start">
-                <div className="ml-0  h-20 w-20 " >
-                    <img src={sol} alt="Logo Altamar"></img>
-                </div>
-            </div>
-            <div className="flex aling-center justify-center text-white font-bold text-center h-2/4 ">
-                <div className="">
-                    <div className="mx-auto mb-3 h-20 w-20 " >
-                        <img src={chiringuito} alt="Logo Altamar"></img>
+                <div className="flex justify-start">
+                    <div className="ml-0  h-20 w-20 mb-8 " >
+                        <img src={sol} alt="Logo Altamar"></img>
                     </div>
-                    <h2 className="text-4xl hola">¡Bienvenido!</h2>
-                    <h3 className="hola">¿Qué te apetece hoy?</h3>
                 </div>
-            </div>
-            <div className="flex justify-end">
-                <div className="ml-0 mt-10 h-20 w-24 " >
-                    <img src={palmera} alt="Logo Altamar"></img>
+                <div className="flex aling-center justify-center text-white font-bold text-center h-2/4 ">
+                    <div className="">
+                        <div className="mx-auto mb-3 h-20 w-20 " >
+                            <img src={chiringuito} alt="Logo Altamar"></img>
+                        </div>
+                        <h2 className="text-4xl hola">¡Bienvenido!</h2>
+                        <h3 className="hola">¿Qué te apetece hoy?</h3>
+                    </div>
                 </div>
-            </div>
+                <div className="flex justify-end">
+                    <div className="ml-0 mt-10 h-20 w-24 " >
+                        <img src={palmera} alt="Logo Altamar"></img>
+                    </div>
+                </div>
             </div>
             }
         </div>
